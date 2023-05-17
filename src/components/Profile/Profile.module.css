@@ -34,35 +34,37 @@
   letter-spacing: -0.02em;
 }
 
-.stats{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    margin: auto;
-    margin-top: 22px;
-    padding-left: 0;
+.stats {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: auto;
+  margin-top: 22px;
+  padding-left: 0;
 }
 
-.liStats{
-display: flex;
-flex-direction: column;
-justify-content: center;
+.liStats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.liStats:not(:last-child){
-    margin-right: 32px;
+.liStats:not(:last-child) {
+  margin-right: 32px;
 }
 
 .label {
+  align-self: center;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: -0.02em;
 }
 
-.quantity{
+.quantity {
+  align-self: center;
   font-weight: bold;
   font-size: 18px;
   line-height: 24px;
-  letter-spacing: -0.02em;    
+  letter-spacing: -0.02em;
 }
