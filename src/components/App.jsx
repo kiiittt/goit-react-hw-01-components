@@ -1,11 +1,12 @@
-import { Profile } from 'components/Profile/Profile'
+import { Profile } from './Profile/Profile'
 import { Statistics } from './Statistics/Statistics'
+import { FriendList } from './FriendList/FriendList'
 
 export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
+        // height: '100vh',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
@@ -16,6 +17,7 @@ export const App = () => {
     >
       <Profile />
       <Statistics />
+      <FriendList />
     </div>
   );
 };
