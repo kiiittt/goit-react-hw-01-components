@@ -2,7 +2,7 @@ import css from './FriendList.module.css';
 import friendsData from './friends.json';
 
 export const FriendList = () => {
-    const { avatar, name, isOnline, id } = friendsData;
+    const { isOnline, id } = friendsData;
     
     if (isOnline === true) {
         
