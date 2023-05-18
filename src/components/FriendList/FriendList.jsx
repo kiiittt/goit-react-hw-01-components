@@ -1,9 +1,12 @@
 import css from './FriendList.module.css';
 import friendsData from './friends.json';
-import PropTypes from 'prop-types';
 
 export const FriendList = () => {
     const { isOnline, id } = friendsData;
+    
+    if (isOnline === true) {
+        
+    }
 
   return (
     <div className={css.friensDiv} key={id}>
@@ -30,10 +33,4 @@ export const FriendList = () => {
       </ul>
     </div>
   );
-};
-
-
-FriendList.propTypes = {
-  name: PropTypes.string,
-  status: PropTypes.string,
 };
