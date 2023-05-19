@@ -22,7 +22,6 @@ export const Statistics = props => {
   );
 };
 
-
 Statistics.propTypes = {
   item: PropTypes.string,
   stats: PropTypes.arrayOf(
