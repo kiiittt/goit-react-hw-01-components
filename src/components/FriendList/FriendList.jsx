@@ -2,12 +2,8 @@ import css from './FriendList.module.css';
 import friendsData from './friends.json';
 
 export const FriendList = () => {
-    const { isOnline, id } = friendsData;
-    
-    if (isOnline === true) {
-        
-    }
-
+  const { id } = friendsData;
+  
   return (
     <div className={css.friensDiv} key={id}>
       <ul className={css.friendList}>
