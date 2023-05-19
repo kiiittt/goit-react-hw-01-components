@@ -6,7 +6,7 @@ export const Statistics = props => {
 
   return (
     <section className={css.statistics} key={id}>
-      <h2 className={css.title}>{item}</h2>
+      {item && <h2 className={css.title}>{item}</h2>}
       <ul className={css.statList}>
         {props.stats.map(data => (
           <li className={css.item} key={data.id}>
